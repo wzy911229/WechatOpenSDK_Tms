@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                = "WechatOpenSDK_TMS"
+  s.name                = "WechatOpenSDK_tms"
   s.version             = "1.9.1"
   s.summary             = "WechatOpenSDK_TMS1.9.1"
   s.description         = <<-DESC
@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.platform            = :ios, "9.0"
   s.static_framework = true
 
-  s.vendored_libraries  = './libWeChatSDK.a'
-  s.source_files = "./**/*.{h,m,mm}"  
+  s.vendored_libraries  = 'lib/libWeChatSDK.a'
+  s.source_files = "lib/*.{h,m,mm}"  
   s.frameworks 			    = 'Security', 'CoreTelephony', 'SystemConfiguration', 'CFNetwork'
   s.libraries           = 'z', 'sqlite3.0', 'c++'
 
