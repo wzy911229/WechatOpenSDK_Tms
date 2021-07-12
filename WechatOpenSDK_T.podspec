@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name                = "WechatOpenSDK_tms"
+  s.name                = "WechatOpenSDK_T"
   s.version             = "1.9.1"
-  s.summary             = "WechatOpenSDK_TMS1.9.1"
+  s.summary             = "WechatOpenSDK 1.9.1"
   s.description         = <<-DESC
                             React Native apps are built using the React JS
                             framework, and render directly to native UIKit
